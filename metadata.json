@@ -1,0 +1,6 @@
+{
+  "name": "פסוקאי - משחק הפסוקים היומי מהתורה",
+  "description": "משחק יומי מאתגר: קבלו 10 מילים ליום, מצאו פסוקים מחמישה חומשי תורה המכילים אותן בתוך 30 שניות, והתחרו על המקום הראשון בטבלת המובילים היומית!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

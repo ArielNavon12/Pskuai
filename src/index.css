@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #0a0f1d;
+  --bg-card: #131b2e;
+  --bg-card-subtle: #1a243d;
+  --border-primary: rgba(245, 158, 11, 0.25);
+  --border-subtle: #23304d;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --accent-amber: #f59e0b;
+  --accent-amber-hover: #d97706;
+  --correct-green: #22c55e;
+  --wrong-red: #ef4444;
+  --font-serif: "Frank Ruhl Libre", "David", "Times New Roman", Georgia, serif;
+}
+
+[data-theme="light"],
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg-primary: #f8fafc;
+    --bg-card: #ffffff;
+    --bg-card-subtle: #f1f5f9;
+    --border-primary: rgba(180, 83, 9, 0.3);
+    --border-subtle: #e2e8f0;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --accent-amber: #b45309;
+    --accent-amber-hover: #92400e;
+    --correct-green: #16a34a;
+    --wrong-red: #dc2626;
+  }
+}
+
+[data-theme="dark"] {
+  --bg-primary: #0a0f1d;
+  --bg-card: #131b2e;
+  --bg-card-subtle: #1a243d;
+  --border-primary: rgba(245, 158, 11, 0.25);
+  --border-subtle: #23304d;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --accent-amber: #f59e0b;
+  --accent-amber-hover: #d97706;
+  --correct-green: #22c55e;
+  --wrong-red: #ef4444;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  font-family: var(--font-serif);
+  direction: rtl;
+  text-align: right;
+  min-height: 100vh;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+.font-biblical {
+  font-family: var(--font-serif);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.3);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.7);
+}

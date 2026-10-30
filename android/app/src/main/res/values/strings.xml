@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">פסוקאי</string>
+    <string name="asset_statements">[{\"relation\": [\"delegate_permission/common.handle_all_urls\"],\"target\": {\"namespace\": \"android_app\",\"package_name\": \"app.pasukai.twa\",\"sha256_cert_fingerprints\": [\"19:4E:8B:33:B3:98:A5:B7:D7:6C:1C:92:44:11:19:6A:95:8F:59:80:96:28:A6:A6:B6:9B:E7:12:DC:3E:25:26\"]}}]</string>
+</resources>
